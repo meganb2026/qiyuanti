@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QiyuanTI - 猫版MBTI测试</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="decorations"></div>
+    <div class="container">
+        <!-- 开始页面 -->
+        <div id="start-page" class="page active">
+            <h1>QiyuanTI</h1>
+            <h2>猫版MBTI测试</h2>
+            <div class="divider"></div>
+            <p>探索你的爱猫狗设</p>
+            <button id="start-btn">开始测试</button>
+        </div>
+
+        <!-- 测试问题页面 -->
+        <div id="test-page" class="page">
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+            <h2 id="question-number">问题 1/12</h2>
+            <h3 id="question-text">问题内容</h3>
+            <div class="options">
+                <button id="option-a" class="option">选项 A</button>
+                <button id="option-b" class="option">选项 B</button>
+            </div>
+        </div>
+
+        <!-- 结果页面 -->
+        <div id="result-page" class="page">
+            <h1>测试结果</h1>
+            <div id="result-personality" class="personality"></div>
+            <div id="result-title" class="result-title"></div>
+            <button id="restart-btn">重新测试</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
