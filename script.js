@@ -59,27 +59,27 @@ const questions = [
     // T/F 理智/感性
     {
         id: 7,
-        text: "朋友难过伤心时，你第一反应？",
-        optionA: "分析原因、讲道理解决问题",
-        optionB: "先安慰情绪、心疼对方",
+        text: "你刚结束一场精彩绝伦的表演，走到SD听到了好多汪汪汪汪汪，你选择：",
+        optionA: "目光搜寻看看是不是哪里有真的小狗",
+        optionB: "站在SD口向每个方向微笑招手示意",
         type: "TF",
         valueA: "T",
         valueB: "F"
     },
     {
         id: 8,
-        text: "做重要决定，你靠？",
-        optionA: "逻辑对错、利弊得失",
-        optionB: "内心感受、舒不舒服、温柔与否",
+        text: "现在天马上黑了，安新荣跟着你们出来崴了脚。你决定先背着她回连队。内心感受是：",
+        optionA: "先保证大家的安全",
+        optionB: "好麻烦",
         type: "TF",
         valueA: "T",
         valueB: "F"
     },
     {
         id: 9,
-        text: "待人处事你更？",
-        optionA: "客观冷淡、就事论事",
-        optionB: "心软包容、顾及别人感受",
+        text: "屠岸贾杀了你儿子，现在你低头看着赵氏孤儿，你会：",
+        optionA: "重拾理智，好好养他",
+        optionB: "又爱又恨",
         type: "TF",
         valueA: "T",
         valueB: "F"
@@ -87,27 +87,27 @@ const questions = [
     // J/P 计划/随性
     {
         id: 10,
-        text: "出门 / 做事你习惯？",
-        optionA: "提前规划、安排好一切",
-        optionB: "临时决定、随心所欲、随缘",
+        text: "徐江给了你陈书婷信息的纸条，你会：",
+        optionA: "和小龙一起打探一下陈书婷的大概信息",
+        optionB: "直接去陈书婷家亲眼看看她是什么样的",
         type: "JP",
         valueA: "J",
         valueB: "P"
     },
     {
         id: 11,
-        text: "完成任务你？",
-        optionA: "先做完再放松，讨厌拖延混乱",
-        optionB: "拖延、随性、想到啥做啥",
+        text: "你看上了泡泡玛特家的一个丑娃娃，连抽几盒都没有抽到，你会",
+        optionA: "端盒",
+        optionB: "在店里看到其他娃娃也很丑，开心地抽别的款式",
         type: "JP",
         valueA: "J",
         valueB: "P"
     },
     {
         id: 12,
-        text: "面对改变你？",
-        optionA: "喜欢稳定有序，讨厌突发意外",
-        optionB: "喜欢新鲜自由，讨厌被束缚",
+        text: "现在有一个新款鱼摊自动售卖机，它可以帮你自动规划鱼类售卖，但有可能做出奇怪的事情比如拿鱼砸你的头（不会砸客户的），你会：",
+        optionA: "不买。因为喜欢稳定有序，讨厌突发意外",
+        optionB: "试试新东西",
         type: "JP",
         valueA: "J",
         valueB: "P"
@@ -116,22 +116,22 @@ const questions = [
 
 // 结果映射
 const results = {
-    "ISFJ": "吴智哲",
-    "ESFJ": "吴智哲",
-    "ISFJ": "薛承宇",
-    "ESFJ": "薛承宇",
-    "INFP": "王洛宾",
-    "ISFP": "陈飞浦",
-    "INFJ": "程婴",
-    "ENFJ": "高启强",
-    "INTJ": "宫洺",
-    "INTP": "宫洺",
-    "ENTJ": "克劳狄斯",
-    "ESTJ": "克劳狄斯",
-    "ENFP": "阴阳怪气疯批恶魔",
-    "ENTP": "阴阳怪气疯批恶魔",
-    "ISTP": "何非",
-    "ISTJ": "李想"
+    "ISFJ": "棋元的狗",
+    "ESFJ": "棋元的狗",
+    "ISFJ": "棋元的狗",
+    "ESFJ": "棋元的狗",
+    "INFP": "棋元的狗",
+    "ISFP": "棋元的狗",
+    "INFJ": "棋元的狗",
+    "ENFJ": "棋元的狗",
+    "INTJ": "棋元的狗",
+    "INTP": "棋元的狗",
+    "ENTJ": "棋元的狗",
+    "ESTJ": "棋元的狗",
+    "ENFP": "棋元的狗",
+    "ENTP": "棋元的狗",
+    "ISTP": "棋元的狗",
+    "ISTJ": "棋元的狗"
 };
 
 // 全局变量
